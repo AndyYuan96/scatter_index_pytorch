@@ -11,7 +11,7 @@
 ​	NOTE !!!
 ​		only support CUDA Tensor
 ​		only support index over feature(C) dim  (B,C,H,W)
-​		didn't check where the index is valid
+​		didn't check whether the index is valid
 
 
 ## how to install
