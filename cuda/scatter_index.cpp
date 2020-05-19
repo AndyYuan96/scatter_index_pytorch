@@ -11,7 +11,7 @@ void scatter_index(torch::Tensor input, torch::Tensor index, torch::Tensor outpu
   CHECK_CUDA(input);
   CHECK_CUDA(index);
   CHECK_CUDA(output);
-  
+
   scatter_index_cuda(input, index, output);
 }
 
